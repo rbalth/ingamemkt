@@ -1,0 +1,195 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "itemReceiver",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "itemName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "itemValue",
+						"type": "string"
+					}
+				],
+				"name": "ItemRegistration",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Items",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "itemDestination",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "itemName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "itemValue",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "blockTimestamp",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "itemReceiver",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "itemName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "itemValue",
+						"type": "string"
+					}
+				],
+				"name": "NewItem",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "itemID",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "itemReceiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "itemID",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "item",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "numItems",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/inGameMkt.sol": "inGameMarket"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/inGameMkt.sol": {
+			"keccak256": "0x33ced3c41fba373e5fb6e4acfa5a465719cce3bf41999006bf8f3760c9fd9c29",
+			"urls": [
+				"bzz-raw://65ce8acbcc1009968b03e0573905e19d2422be2d817ef16f57a775d9e06fa424",
+				"dweb:/ipfs/QmXBcKkKfSd1sPbTiWzpHixc15hxaBDMxf1raZJPhaqgjR"
+			]
+		}
+	},
+	"version": 1
+}
